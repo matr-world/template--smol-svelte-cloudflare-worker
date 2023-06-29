@@ -31,10 +31,10 @@ VITE_API_URL="http://127.0.0.1:9000"
 
 There are a few top level commands to make development easier. Run the following commands from the root of this repo. You can run only the UI or only the API but in most cases you'll probably want to run both at once.
 
-| Name                   | Description              | Command                |
-| ---------------------- | ------------------------ | ---------------------- |
-| **Install Everything** | Install config + UI app. | `npm i`                |
-| **Install UI Only**    | Install UI Only.         | `npm i --prefix ./ui`  |
-| **Dev Everything**     | Run UI and API at once.  | `npm run dev`          |
-| **Dev API Only**       | Run UI and API at once.  | `npx wrangler dev`     |
-| **Dev UI Only**        | Run UI and API at once.  | `npm run dev --prefix` |
+| Name                   | Description                   | Command               |
+| ---------------------- | ----------------------------- | --------------------- |
+| **Install Everything** | Install root config + UI app. | `npm i`               |
+| **Install UI Only**    | Install UI Only.              | `npm i --prefix ./ui` |
+| **Dev Everything**     | Run UI and API at once.       | `npm run dev`         |
+| **Dev API Only**       | Run UI and API at once.       | `npm run dev:api`     |
+| **Dev UI Only**        | Run UI and API at once.       | `npm run dev:ui`      |
