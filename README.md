@@ -12,7 +12,7 @@ The API is a Cloudflare worker. This app contains all backend logic.
 
 The UI is a Svelte app that interacts with the API.
 
-## 🛠️ Develop
+## 🛠️ Development
 
 #### ⚙️ Setup UI `.env`
 
