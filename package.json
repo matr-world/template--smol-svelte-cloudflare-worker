@@ -1,7 +1,7 @@
 {
-    "name": "the-76-devs",
+    "name": "template--smol-svelte-cloudflare-worker",
     "version": "1.0.0",
-    "description": "- **Start UI:** `cd ui` + `npm run dev` - **Start API** `cd api` + `npx wrangler dev`",
+    "description": "A super small Svelte app with a companion Cloudflare worker as a backend when you need it.",
     "main": "index.js",
     "scripts": {
         "dev:api": "cd api && npx wrangler dev --port 9000",
